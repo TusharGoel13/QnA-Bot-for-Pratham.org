@@ -20,9 +20,11 @@ The bot is designed to ingest PDF documents from a specified directory, split th
    - `OPENAI_API_KEY`: Your OpenApi API key
 
 3. Run the main.py file
-   - Open a terminal in your porject directory
+   - Open a terminal in your project directory
    - Run python main.py
-   - Access streamlit app in your web browser by navigation to loacalhost
+   - Access the Streamlit app in your web browser by navigating to localhost
+   - Click the Documents Embedding button to create Vector Store DB
+   - After Vectore Store DB is created, questions can be asked of which a response and similar citations from the document will be provided
 
 Additional Resources
    - LangChain documentation
